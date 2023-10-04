@@ -4,6 +4,9 @@
  */
 package classesandobjectz;
 
+import Shapes.Rectangle;
+import Shapes.Triangle;
+
 /**
  *
  * @author Primm
@@ -15,17 +18,17 @@ public class ClassesAndObjectz {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Triangle tril1 = new Triangle();
+        Triangle tri1 = new Triangle();
         
-        Triangle tril2 = new Triangle();
+        Triangle tri2 = new Triangle();
         
-        Triangle tril3 = new Triangle();
+        Triangle tri3 = new Triangle();
         
-        Triangle tril4 = new Triangle();
+        Triangle tri4 = new Triangle();
         
-        Triangle tril5 = new Triangle();
+        Triangle tri5 = new Triangle();
         
-        Triangle tril6 = new Triangle();
+        Triangle tri6 = new Triangle();
         
         int[]sideLengths = new int [18];
         // the lengths of tri1 sides will be first and the the lwngths of tril2 side will be sides etc
@@ -46,7 +49,17 @@ public class ClassesAndObjectz {
         sideLengths[13]= 5;
         sideLengths[16]= 5;
         
+        Person primmy = new Person(); 
+       primmy.favTriangle = tri3;
         
-    }
+        Rectangle rect1 =new Rectangle();     
+        
+        System.out.println( rect1.getArea());
+       //  shape shape1= new shape ();
+       // that means it can not be instanciated 
+        System.out.println(rect1.getColour());
+}
+
+
     
 }

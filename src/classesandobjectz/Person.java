@@ -4,13 +4,16 @@
  */
 package classesandobjectz;
 
+import Shapes.Triangle;
+
 /**
  *
  * @author Primm
  */
-public class Triangle {
-   
-    int side1;
-    int side2;
-    int size3;
+public class Person {
+    String name; 
+    int age; 
+    String race; 
+    boolean isProgrammer;
+    Triangle favTriangle;
 }
