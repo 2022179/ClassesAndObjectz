@@ -9,5 +9,8 @@ package classesandobjectz;
  * @author Primm
  */
 public class Triangle {
-    
+   
+    int side1;
+    int side2;
+    int size3;
 }
